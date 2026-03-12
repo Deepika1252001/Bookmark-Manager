@@ -1,0 +1,28 @@
+
+> bookmark-manager@0.1.0 dev
+> next dev
+
+   ▲ Next.js 14.1.0
+   - Local:        http://localhost:3000
+   - Environments: .env
+
+ ✓ Ready in 1691ms
+ ○ Compiling / ...
+ ✓ Compiled / in 9.1s (479 modules)
+ ○ Compiling /api/bookmarks ...
+ ✓ Compiled /api/bookmarks in 658ms (494 modules)
+prisma:query SELECT `main`.`Bookmark`.`id`, `main`.`Bookmark`.`title`, `main`.`Bookmark`.`url`, `main`.`Bookmark`.`tag`, `main`.`Bookmark`.`favorite`, `main`.`Bookmark`.`createdAt` FROM `main`.`Bookmark` WHERE 1=1 ORDER BY `main`.`Bookmark`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query INSERT INTO `main`.`Bookmark` (`title`, `url`, `tag`, `favorite`, `createdAt`) VALUES (?,?,?,?,?) RETURNING `id` AS `id`, `title` AS `title`, `url` AS `url`, `tag` AS `tag`, `favorite` AS `favorite`, `createdAt` AS `createdAt`
+prisma:query SELECT `main`.`Bookmark`.`id`, `main`.`Bookmark`.`title`, `main`.`Bookmark`.`url`, `main`.`Bookmark`.`tag`, `main`.`Bookmark`.`favorite`, `main`.`Bookmark`.`createdAt` FROM `main`.`Bookmark` WHERE 1=1 ORDER BY `main`.`Bookmark`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Bookmark`.`id`, `main`.`Bookmark`.`title`, `main`.`Bookmark`.`url`, `main`.`Bookmark`.`tag`, `main`.`Bookmark`.`favorite`, `main`.`Bookmark`.`createdAt` FROM `main`.`Bookmark` WHERE 1=1 ORDER BY `main`.`Bookmark`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Bookmark`.`id`, `main`.`Bookmark`.`title`, `main`.`Bookmark`.`url`, `main`.`Bookmark`.`tag`, `main`.`Bookmark`.`favorite`, `main`.`Bookmark`.`createdAt` FROM `main`.`Bookmark` WHERE 1=1 ORDER BY `main`.`Bookmark`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query INSERT INTO `main`.`Bookmark` (`title`, `url`, `tag`, `favorite`, `createdAt`) VALUES (?,?,?,?,?) RETURNING `id` AS `id`, `title` AS `title`, `url` AS `url`, `tag` AS `tag`, `favorite` AS `favorite`, `createdAt` AS `createdAt`
+prisma:query SELECT 1
+prisma:query SELECT `main`.`Bookmark`.`id`, `main`.`Bookmark`.`title`, `main`.`Bookmark`.`url`, `main`.`Bookmark`.`tag`, `main`.`Bookmark`.`favorite`, `main`.`Bookmark`.`createdAt` FROM `main`.`Bookmark` WHERE 1=1 ORDER BY `main`.`Bookmark`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Bookmark`.`id`, `main`.`Bookmark`.`title`, `main`.`Bookmark`.`url`, `main`.`Bookmark`.`tag`, `main`.`Bookmark`.`favorite`, `main`.`Bookmark`.`createdAt` FROM `main`.`Bookmark` WHERE 1=1 ORDER BY `main`.`Bookmark`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query INSERT INTO `main`.`Bookmark` (`title`, `url`, `tag`, `favorite`, `createdAt`) VALUES (?,?,?,?,?) RETURNING `id` AS `id`, `title` AS `title`, `url` AS `url`, `tag` AS `tag`, `favorite` AS `favorite`, `createdAt` AS `createdAt`
+prisma:query SELECT `main`.`Bookmark`.`id`, `main`.`Bookmark`.`title`, `main`.`Bookmark`.`url`, `main`.`Bookmark`.`tag`, `main`.`Bookmark`.`favorite`, `main`.`Bookmark`.`createdAt` FROM `main`.`Bookmark` WHERE 1=1 ORDER BY `main`.`Bookmark`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query SELECT `main`.`Bookmark`.`id`, `main`.`Bookmark`.`title`, `main`.`Bookmark`.`url`, `main`.`Bookmark`.`tag`, `main`.`Bookmark`.`favorite`, `main`.`Bookmark`.`createdAt` FROM `main`.`Bookmark` WHERE 1=1 ORDER BY `main`.`Bookmark`.`createdAt` DESC LIMIT ? OFFSET ?
+prisma:query INSERT INTO `main`.`Bookmark` (`title`, `url`, `tag`, `favorite`, `createdAt`) VALUES (?,?,?,?,?) RETURNING `id` AS `id`, `title` AS `title`, `url` AS `url`, `tag` AS `tag`, `favorite` AS `favorite`, `createdAt` AS `createdAt`
+prisma:query INSERT INTO `main`.`Bookmark` (`title`, `url`, `tag`, `favorite`, `createdAt`) VALUES (?,?,?,?,?) RETURNING `id` AS `id`, `title` AS `title`, `url` AS `url`, `tag` AS `tag`, `favorite` AS `favorite`, `createdAt` AS `createdAt`
+[?25h
